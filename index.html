@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Assignment: Program za obavljanje osnovnih aritmetičkih operacija</title>
+
+</head>
+
+<body>
+  <script>
+    
+      let value1 = prompt("Please enter first number: ");
+      let operation = prompt("Please enter arithmetic operation (+, -, * or /): ");
+      let value2 = prompt("Please enter second number: ");
+
+      switch (operation) {
+      case "+":
+      result = parseInt (value1) + parseInt (value2);
+      alert("Result is " + result);
+      break;
+      case "-":
+      result = parseInt (value1) - parseInt (value2);
+      alert("Result is " + result);
+      break;
+      case "*":
+      result = parseInt (value1) * parseInt (value2);
+      alert("Result is " + result);
+      break;
+      case "/":
+      result = parseInt (value1) / parseInt (value2);
+      alert("Result is " + result);
+      break;
+      default:
+      alert("Unknown value");
+      break;
+      }
+  </script>
+</body>
+</html>
